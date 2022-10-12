@@ -24,11 +24,11 @@ height: 200px;
 }
 .boton-redondo{
   position: absolute;
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   border-radius: 100px;
   margin-top: -199px;
-  margin-left: 290px;
+  margin-left: 340px;
   background-color: rgb(255, 255, 255);
   }
 video {
@@ -45,6 +45,6 @@ video {
 }
 
 .conte-icon{
-  margin-top: -175px;
-  margin-left: -346px;
+  margin-top: -188px;
+  margin-left: -274px;
 }
