@@ -6,6 +6,7 @@
 	<title>CodePen - Scaled/Proportional Content with CSS and JavaScript</title>
 	<link rel="stylesheet" href="./style.css">
 	<script src="https://kit.fontawesome.com/c4b7d7f020.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style-2.css">
 
 </head>
 
@@ -19,7 +20,25 @@
 		<div class="conte-icon">
 			<div id="play-pause-button" class="fa fa-play"></div>
 		</div>
+		<div class="player_controls">
+			<div class="progress-range" title="Jump-to">
+			  <div class="progress-bar"></div>
+			</div>
 	</div>
+	<div class="controls">
+		
+		<input
+		  type="range"
+		  class="peogressbar"
+		  id="progressbar"
+		  min="0"
+		  max="100"
+		  step="0.1"
+		  value="0"
+		/>
+  
+	
+	  </div>
 
 
 
@@ -27,6 +46,7 @@
 	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src="./script.js"></script>
 	<script src="index.js"></script>
+	<script src="script-2.js"></script>
 
 </body>
 
